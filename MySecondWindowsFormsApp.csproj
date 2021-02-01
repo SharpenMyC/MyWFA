@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +79,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\whatOS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\androidLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blackberryLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iosLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ubuntuLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search_noHalo_16x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
